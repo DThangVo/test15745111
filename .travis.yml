@@ -1,4 +1,7 @@
-language: generic
+language: python
+python:
+ - "100"
+ - "80"
 script: 
- - bash -e ./test.bash
+ - bash -e ./15745111
 
