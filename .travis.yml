@@ -1,4 +1,7 @@
 language: generic
 script: 
  - bash -e ./15745111.bash 100 80
+ - bash -e ./15745111.bash 5000 35
+ - bash -e ./15745111.bash 500 400
+ - bash -e ./15745111.bash a 100
 
