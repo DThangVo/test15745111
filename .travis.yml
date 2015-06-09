@@ -1,6 +1,5 @@
 language: generic
-branches:
-  only:
-    - master
 script: 
- - bash -e ./15745111.bash 500 abc
+ - bash -e ./15745111.bash 500 100
+ - bash -e ./15745111.bash 800 50
+ - bash -e ./15745111.bash 5000 900
