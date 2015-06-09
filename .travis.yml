@@ -1,7 +1,4 @@
-language: python
-python:
- - "100"
- - "80"
+language: generic
 script: 
- - bash ./15745111.bash
+ - bash -e ./15745111.bash 100 80
 
