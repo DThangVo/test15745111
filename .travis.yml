@@ -1,3 +1,6 @@
 language: generic
+branches:
+  only:
+    - master
 script: 
  - bash -e ./15745111.bash 500 abc
