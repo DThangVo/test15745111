@@ -3,5 +3,5 @@ python:
  - "100"
  - "80"
 script: 
- - bash -e ./15745111
+ - bash ./15745111.bash
 
