@@ -24,13 +24,6 @@ echo 200 > $tmp-ans
 ./15745111.bash 3000 400 > $tmp-out || ERROR_EXIT "TEST2-1"
 diff $tmp-ans $tmp-out || ERROR_EXIT "TEST2-2"
 
-#######
-# TEST 3：異常の場合
-######
-echo 200 > $tmp-ans
-./15745111.bash 100 400 > $tmp-out || ERROR_EXIT "TEST3-1"
-diff $tmp-ans $tmp-out || ERROR_EXIT "TEST3-2"
-
 rm -f $tmp-*
 echo OK
 exit 0
